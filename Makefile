@@ -1,7 +1,7 @@
 # Default to config.toml if no config file is specified
 .PHONY: all query_document_enrichment clean_and_embed index_and_retrieve table_selection column_rank
 
-CONFIG_FILE ?= config_synt_template.toml
+CONFIG_FILE ?= config_omop_template.toml
 
 all: query_document_enrichment clean_and_embed index_and_retrieve table_selection column_rank
 
